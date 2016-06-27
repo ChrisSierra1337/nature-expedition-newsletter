@@ -1,0 +1,468 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	width: 100%;
+	text-decoration: none;
+    /*border: 3px solid black;*/
+}
+
+body {
+    background-color: silver;
+}
+
+.top, .right, .bottom, .left {
+    background-color: white;
+    position: absolute;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.top1, .right1, .bottom1, .left1 {
+    background-color: white;
+    position: absolute;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.top2, .right2, .bottom2, .left2 {
+    background-color: white;
+    position: absolute;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.space-my-bottom {
+    margin-bottom: 1.85rem;
+}
+
+.space-my-top {
+    margin-top: 2rem;
+}
+
+.top {
+    left: 10rem;
+    width: 0.1rem;
+    height: 13rem;
+}
+
+.bottom {
+    left: 70rem;
+    width: 0.1rem;
+    height: 13rem;
+}
+
+.right {
+    height: 0.1rem;
+    width: 60rem;
+    left: 10rem;
+}
+
+.left {
+    left: 10rem;
+    height: 0.1rem;
+    width: 60.1rem;
+    top: 69rem;
+}
+
+.top1 {
+    top: 127rem;
+    left: 10rem;
+    width: 0.1rem;
+    height: 13rem;
+}
+
+.bottom1 {
+    top: 127rem;
+    left: 70rem;
+    width: 0.1rem;
+    height: 13rem;
+}
+
+.right1 {
+    top: 127rem;
+    height: 0.1rem;
+    width: 60rem;
+    left: 10rem;
+}
+
+.left1 {
+    left: 10rem;
+    height: 0.1rem;
+    width: 60.1rem;
+    top: 140rem;
+}
+
+.top2 {
+    top: 215rem;
+    left: 10rem;
+    width: 0.1rem;
+    height: 13rem;
+}
+
+.bottom2 {
+    top: 215rem;
+    left: 70rem;
+    width: 0.1rem;
+    height: 13rem;
+}
+
+.right2 {
+    top: 228rem;
+    height: 0.1rem;
+    width: 60.1rem;
+    left: 10rem;
+}
+
+.left2 {
+    left: 10rem;
+    height: 0.1rem;
+    width: 60.1rem;
+    top: 215rem;
+}
+
+p {
+    letter-spacing: 0.05rem;
+    color: rgb(74, 74, 74);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: darkorange;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+H4 {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-size: 10rem;
+    text-align: center;
+    color: white;
+}
+
+#main-container {
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: rgb(107, 107, 107);
+}
+
+#header h4 {
+    width: 20%;
+    position: absolute;
+}
+
+#header-h4-2 {
+    margin-left: 65%;
+}
+
+#container-1 {
+    position: relative;
+    top: 1rem;
+    background-color: white;
+    padding-bottom: 0.8rem;
+}
+
+#container-1 h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#container-1 h2 {
+    margin-right: 2rem;
+    position: relative;
+    top: 1rem;
+    left: 27.5%;
+    text-align: center;
+    display: inline;
+}
+
+#container-1 img {
+    margin-top: 2rem;
+}
+
+#container-1 #peru-baloon h6 {
+    letter-spacing: 0.5rem;
+    text-align: center;
+    top: 25rem;
+    color: white;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 1);
+    font-size: 8rem;
+    position: absolute;
+}
+
+#container-1 #peru-baloon h3 {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 9%;
+    position: absolute;
+    top: 37.5rem;
+    left: 27.5rem;
+    background-color: white;
+}
+
+#container-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: darkorange;
+}
+
+#container-2 h4 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+#container-2-content {
+    text-align: center;
+    padding-top: 0.1rem;
+    background-color: white;
+}
+
+#container-2-content h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#container-2-content-left {
+    padding-bottom: 1rem;
+    background-color: white;
+    float: left;
+    width: 40%;
+    padding-left: 7.5%;
+    padding-right: 2.5%;
+}
+
+#container-2-content-left img {
+    margin-top: 2rem;
+    height: 32rem;
+}
+
+#container-2-content-right {
+    padding-bottom: 1rem;
+    background-color: white;
+    float: right;
+    width: 40%;
+    padding-right: 7.5%;
+    padding-left: 2.5%;
+}
+
+#container-2-content-right img {
+    margin-top: 2rem;
+    height: 30rem;
+}
+
+#container-3 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: darkorange;
+}
+
+#container-3 h5 {
+    position: relative;
+    margin-left: 3rem;
+    left: -15rem;
+}
+
+#container-3 h4 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+#container-3-content {
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: white;
+    padding-top: 1rem;
+}
+
+#container-3-content img {
+    margin-bottom: 1rem;
+}
+
+#container-4 {
+    background-color: darkorange;
+    padding-bottom: 2rem;
+}
+
+#container-4 h4 {
+    text-align: center;
+    color: white;
+}
+
+#container-4-content img {
+    height: 25rem;
+}
+
+#container-4-content-left {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    float: left;
+    width: 40%;
+    padding-left: 7.5%;
+    padding-right: 2.5%;
+}
+
+#container-4-content-left img {
+    margin-top: 2rem;
+}
+
+#container-4-content-right {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2.1rem;
+    background-color: white;
+    float: right;
+    width: 40%;
+    padding-right: 7.5%;
+    padding-left: 2.5%;
+}
+
+#container-4-content-right img {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#top-footer {
+    padding-bottom: 1rem;
+    background-color: lightgray;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#top-footer .title {
+    top: 2rem;
+    right: 15rem;
+    position: relative;
+}
+
+.paragraph {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+#middle-footer {
+    padding-bottom: 5rem;
+    width: 80%;
+    margin-left: 10%;
+    background-color: darkorange;
+}
+
+#middle-footer div {
+    display: inline-block;
+}
+
+#middle-footer h6 {
+    color: white;
+    font-size: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#middle-footer-paragraph-left {
+    color: white;
+    width: 50%;
+    line-height: 1.5rem;
+}
+
+#middle-footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 2rem;
+}
+
+#middle-footer-left {
+    width: 60%;
+    margin-left: 5%;
+}
+
+#middle-footer-right {
+    position: absolute;
+    width: 30%;
+}
+
+#middle-footer-right p {
+    color: white;
+}
+
+#middle-footer-right i {
+    color: white;
+    position: relative;
+    right: 2rem;
+    top: 1.5rem;
+}
+
+#sm-icons {
+    position: relative;
+    top: 3rem;
+    margin-left: 43%;
+}
+
+#sm-icons img {
+    margin-right: 1rem;
+    width: 2rem;
+    display: inline;
+}
+
+#footer {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+}
